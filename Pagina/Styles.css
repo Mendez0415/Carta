@@ -116,19 +116,3 @@ body{
     }
 }
 
-@media (max-width){
-    .mensaje:before{
-    content: "";
-    border-style: dotted;
-    position: absolute;
-    top: 12px;
-    left:  12px;
-    right: 12px;
-    bottom: 45px;
-}
-.mensaje p{
-    position: relative;
-    top: -15px;
-    font-size: 1rem;
-}
-}
